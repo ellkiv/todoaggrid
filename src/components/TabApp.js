@@ -38,7 +38,7 @@ export default function TabApp() {
                     />
                 </Tabs>
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="*" element={<Home />} />
                     <Route path="/ToDoApp" element={<ToDoApp />} />
                 </Routes>
             </BrowserRouter>
